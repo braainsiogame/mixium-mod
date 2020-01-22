@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Mixium Smelter
+description: Crush graphite and silicon in order to make mixium.
+liquidCapacity: 10
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      graphite/2
+      silicon/2
+    ]
+  }
+}
+requirements: [
+  graphite/50
+  silicon/60
+  copper/100
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: mixium/1
