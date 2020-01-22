@@ -1,0 +1,6 @@
+name: "op mod"
+displayName: "[orange]op af mod[gold]" //what displays in the mod selection menu
+author: "braainsiogame"
+description: "useless]"
+version: "3.0"
+minGameVersion: "101"
