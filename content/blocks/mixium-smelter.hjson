@@ -1,7 +1,6 @@
 type: GenericSmelter
 name: Mixium Smelter
 description: Crush graphite and silicon in order to make mixium.
-liquidCapacity: 10
 size: 2
 hasPower: true
 hasLiquids: false
